@@ -1,0 +1,77 @@
+html {
+    font-size: 22px;
+}
+
+div {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 1cm;
+    font-family: "Dancing Script", cursive;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.keys {
+    transition: filter 0.1s ease;
+    display: block;
+    margin: 0.15rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    text-align: center;
+    line-height: 4.5rem;
+}
+.keys:hover {
+    cursor: pointer;
+}
+.highlight {
+    filter: brightness(50%);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+.dark {
+    background-color: #1e2022;
+    color: #f0f5f9;
+}
+.light {
+    background-color: #f0f5f9;
+    color: black;
+}
+.operator {
+    background-color: #f0f5f9;
+    color: #000;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+.equal {
+    background-color: #52616b;
+    color: #000;
+    font-size: 2rem;
+    line-height: 4.5rem;
+}
+.display {
+    margin: 0.5rem;
+    background-color: #c9d6df;
+    text-align: right;
+    display: block;
+    width: 19rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 3rem;
+}
+#results {
+    padding-right: 1rem;
+}
+
+#zero,
+#clear {
+    width: 9.3rem;
+}

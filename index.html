@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=IBM+Plex+Sans+Condensed&display=swap"
+            rel="stylesheet"
+        />
+        <title>Online calculator</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1>Online calculator</h1>
+        </div>
+        <div class="container">
+            <div class="row top-space"></div>
+            <div class="row">
+                <div class="col-sm-auto mt-5 order-first order-sm-last">
+                    <div class="row">
+                        <div class="display">
+                            <span id="results">0</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="keys light" id="clear">AC</div>
+                        <div class="keys light" id="backspace">DEL</div>
+                        <div class="keys operator" id="divide">
+                            <span>÷</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="keys dark left" id="seven">7</div>
+                        <div class="keys dark" id="eight">8</div>
+                        <div class="keys dark right" id="nine">9</div>
+                        <div class="keys operator" id="multiply">
+                            <span>x</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="keys dark left" id="four">4</div>
+                        <div class="keys dark" id="five">5</div>
+                        <div class="keys dark right" id="six">6</div>
+                        <div class="keys operator" id="subtract">
+                            <span>-</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="keys dark left" id="one">1</div>
+                        <div class="keys dark" id="two">2</div>
+                        <div class="keys dark right" id="three">3</div>
+                        <div class="keys operator" id="add">
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="keys dark left" id="zero">0</div>
+                        <div class="keys dark right" id="decimal">.</div>
+                        <div class="keys equal" id="equal">
+                            <span>=</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
